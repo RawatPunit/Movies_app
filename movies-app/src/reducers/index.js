@@ -1,4 +1,4 @@
-export default function movies(state = [], action)      {       //actions like change state modify by giving an Intent
+export default function movies(state = [], action)      {       //actions like change state/modify state by giving an Intent
     if(action.type === 'ADD_MOVIES'){
         return action.movies ;
     }
